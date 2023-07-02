@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ApplicationAuth.ResourceLibrary/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Localization.Abstractions": "5.0.8"
+        },
+        "runtime": {
+          "ApplicationAuth.ResourceLibrary.dll": {}
+        },
+        "resources": {
+          "en/ApplicationAuth.ResourceLibrary.resources.dll": {
+            "locale": "en"
+          },
+          "ru/ApplicationAuth.ResourceLibrary.resources.dll": {
+            "locale": "ru"
+          }
+        }
+      },
+      "Microsoft.Extensions.Localization.Abstractions/5.0.8": {
+        "runtime": {
+          "lib/net5.0/Microsoft.Extensions.Localization.Abstractions.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.821.31805"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ApplicationAuth.ResourceLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.Localization.Abstractions/5.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1aLVqVMq+t1hJCKMm24iokUYpIvL//rrxHpyXNVJDB0nnBDsY6RBl9BtFesbMTOT5W+3cjoSpq18juCyQDaIzA==",
+      "path": "microsoft.extensions.localization.abstractions/5.0.8",
+      "hashPath": "microsoft.extensions.localization.abstractions.5.0.8.nupkg.sha512"
+    }
+  }
+}

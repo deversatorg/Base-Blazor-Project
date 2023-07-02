@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "3RShKum0jL2FNnd0sYjxzLR+76tyBsTQnmXa1KH9naQUhJx+CUn1SseyQdGRNkCDks92WdO6OfYq1mEH8KkhRw==",
+  "success": true,
+  "projectFilePath": "C:\\projects\\Shop\\ApplicationAuth.ResourceLibrary\\ApplicationAuth.ResourceLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\legue\\.nuget\\packages\\microsoft.extensions.localization.abstractions\\5.0.8\\microsoft.extensions.localization.abstractions.5.0.8.nupkg.sha512",
+    "C:\\Users\\legue\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\legue\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\legue\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

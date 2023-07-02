@@ -1,0 +1,250 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\projects\\Shop\\ApplicationAuth\\ApplicationAuth\\ApplicationAuth.csproj": {}
+  },
+  "projects": {
+    "C:\\projects\\Shop\\ApplicationAuth\\ApplicationAuth\\ApplicationAuth.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\projects\\Shop\\ApplicationAuth\\ApplicationAuth\\ApplicationAuth.csproj",
+        "projectName": "ApplicationAuth",
+        "projectPath": "C:\\projects\\Shop\\ApplicationAuth\\ApplicationAuth\\ApplicationAuth.csproj",
+        "packagesPath": "C:\\Users\\legue\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\Shop\\ApplicationAuth\\ApplicationAuth\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\legue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\projects\\Shop\\ApplicationAuth\\ApplicationAuth.Common\\ApplicationAuth.Common.csproj": {
+                "projectPath": "C:\\projects\\Shop\\ApplicationAuth\\ApplicationAuth.Common\\ApplicationAuth.Common.csproj"
+              },
+              "C:\\projects\\Shop\\ApplicationAuth\\ApplicationAuth.DAL\\ApplicationAuth.DAL.csproj": {
+                "projectPath": "C:\\projects\\Shop\\ApplicationAuth\\ApplicationAuth.DAL\\ApplicationAuth.DAL.csproj"
+              },
+              "C:\\projects\\Shop\\ApplicationAuth\\ApplicationAuth.Domain\\ApplicationAuth.Domain.csproj": {
+                "projectPath": "C:\\projects\\Shop\\ApplicationAuth\\ApplicationAuth.Domain\\ApplicationAuth.Domain.csproj"
+              },
+              "C:\\projects\\Shop\\ApplicationAuth\\ApplicationAuth.Models\\ApplicationAuth.Models.csproj": {
+                "projectPath": "C:\\projects\\Shop\\ApplicationAuth\\ApplicationAuth.Models\\ApplicationAuth.Models.csproj"
+              },
+              "C:\\projects\\Shop\\ApplicationAuth\\ApplicationAuth.ResourceLibrary\\ApplicationAuth.ResourceLibrary.csproj": {
+                "projectPath": "C:\\projects\\Shop\\ApplicationAuth\\ApplicationAuth.ResourceLibrary\\ApplicationAuth.ResourceLibrary.csproj"
+              },
+              "C:\\projects\\Shop\\ApplicationAuth\\ApplicationAuth.Services\\ApplicationAuth.Services.csproj": {
+                "projectPath": "C:\\projects\\Shop\\ApplicationAuth\\ApplicationAuth.Services\\ApplicationAuth.Services.csproj"
+              },
+              "C:\\projects\\Shop\\ApplicationAuth\\Client\\ApplicationAuth.Client.csproj": {
+                "projectPath": "C:\\projects\\Shop\\ApplicationAuth\\Client\\ApplicationAuth.Client.csproj"
+              },
+              "C:\\projects\\Shop\\ApplicationAuth\\Shared\\ApplicationAuth.Shared.csproj": {
+                "projectPath": "C:\\projects\\Shop\\ApplicationAuth\\Shared\\ApplicationAuth.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AWSSDK.Core": {
+              "target": "Package",
+              "version": "[3.7.1, )"
+            },
+            "AWSSDK.DynamoDBv2": {
+              "target": "Package",
+              "version": "[3.7.0.45, )"
+            },
+            "AWSSDK.Extensions.NETCore.Setup": {
+              "target": "Package",
+              "version": "[3.7.1, )"
+            },
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.19, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.19, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.DotNet.PlatformAbstractions": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.19, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[6.0.19, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[6.0.19, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.PlatformAbstractions": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.14, )"
+            },
+            "MiniProfiler.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[4.2.22, )"
+            },
+            "MiniProfiler.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[4.2.22, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.7.10, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[4.13.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Serilog.Extensions.Logging.File": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "StackExchange.Redis.Extensions.AspNetCore": {
+              "target": "Package",
+              "version": "[7.1.1, )"
+            },
+            "StackExchange.Redis.Extensions.Core": {
+              "target": "Package",
+              "version": "[7.1.1, )"
+            },
+            "StackExchange.Redis.Extensions.Newtonsoft": {
+              "target": "Package",
+              "version": "[7.1.1, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[39.61.0, )"
+            },
+            "Swashbuckle.AspNetCore.Filters": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Swashbuckle.AspNetCore.Newtonsoft": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            },
+            "Swashbuckle.AspNetCore.ReDoc": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            },
+            "Swashbuckle.Aspnetcore.annotations": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            },
+            "Swashbuckle.Aspnetcore.swagger": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            },
+            "Swashbuckle.Aspnetcore.swaggergen": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            },
+            "Swashbuckle.Aspnetcore.swaggerui": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.12.0, )"
+            },
+            "Twilio.AspNet.Core": {
+              "target": "Package",
+              "version": "[5.37.2, )"
+            },
+            "Wangkanai.Detection": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

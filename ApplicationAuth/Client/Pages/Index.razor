@@ -1,0 +1,17 @@
+﻿@page "/"
+@layout MainLayout
+<PageTitle>Index</PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<Button Color="ButtonColor.Primary" @onclick='() => Layout.ShowMessage(ToastType.Primary, "test", "test")'>Primary Toast</Button>
+<SurveyPrompt Title="How is Blazor working for you?" />
+
+@code
+{
+    [CascadingParameter]
+    public MainLayout Layout { get; set; }
+
+}

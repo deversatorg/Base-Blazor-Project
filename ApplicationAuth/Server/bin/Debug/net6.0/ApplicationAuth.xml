@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApplicationAuth.Server</name>
+    </assembly>
+    <members>
+        <member name="M:ApplicationAuth.Controllers.API.Admin.AdminsController.GetAdministrators(ApplicationAuth.Models.RequestModels.PaginationRequestModel{ApplicationAuth.Models.Enums.UserTableColumn})">
+            <summary>
+            Retrieve administrators in pagination
+            </summary>
+            <remarks>
+            Sample request:
+                
+                GET api/v1/superadmin/admins?Search=string&amp;Order.Key=Id&amp;Limit=10&amp;Offset=10
+                
+            </remarks>
+            <param name="model">Pagination request model</param>
+            <returns>An administrators list in pagination</returns>
+        </member>
+        <member name="M:ApplicationAuth.Controllers.API.Admin.AdminSessionsController.Login(ApplicationAuth.Models.RequestModels.AdminLoginRequestModel)">
+             <summary>
+             Admin login
+             </summary>
+             <remarks>
+             TEST DATA: 'accessTokenLifetime' - access token lifetime in seconds; ignore it or set value '0' to specify default token lifetime
+             
+             Sample request:
+            
+                 POST api/v1/admin-sessions
+                 {
+                     "email": "test@example.com",
+                     "password": "stringG1",
+                     "accessTokenLifetime": "0"
+                 }
+             
+             </remarks>
+             <returns>HTTP 201 with login response or HTTP 400, 500 with error message</returns>
+        </member>
+        <member name="M:ApplicationAuth.Controllers.API.Admin.AdminSessionsController.Logout">
+             <summary>
+             Clear admin tokens
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 DELETE api/v1/admin-sessions
+            
+             </remarks>
+             <returns>HTTP 200 with success message or HTTP 40X, 500 with error message</returns>
+        </member>
+        <member name="M:ApplicationAuth.Controllers.API.Admin.AdminSessionsController.RefreshToken(ApplicationAuth.Models.RequestModels.RefreshTokenRequestModel)">
+             <summary>
+             Refresh admin's access token
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 PUT api/v1/admin-sessions
+                 {                
+                     "refreshToken" : "example-token"
+                 }
+            
+             </remarks>
+             <returns>HTTP 201 with new access-refresh token pair or HTTP 40X, 500 with error message</returns>
+        </member>
+        <member name="M:ApplicationAuth.Controllers.API.Admin.AdminUsersController.GetAll(ApplicationAuth.Models.RequestModels.PaginationRequestModel{ApplicationAuth.Models.Enums.UserTableColumn})">
+            <summary>
+            Retrieve users in pagination
+            </summary>
+            <remarks>
+            Sample request:
+            
+                GET api/v1/admin-users?Search=xsdfadsf&amp;Order.Key=Id&amp;Order.Direction=Asc&amp;Limit=45&amp;Offset=45
+            
+            </remarks>
+            <param name="model">Pagination request model</param>
+            <returns>HTTP 200 with users list in pagination or 40X, 500 with error message</returns>  
+        </member>
+        <member name="M:ApplicationAuth.Controllers.API.Admin.AdminUsersController.GetAllByCursor(ApplicationAuth.Models.RequestModels.Base.CursorPagination.CursorPaginationRequestModel{ApplicationAuth.Models.Enums.UserTableColumn})">
+            <summary>
+            Retrieve users in cursor pagination
+            </summary>
+            <remarks>
+            Sample request:
+            
+                GET api/v1/admin-users/cursor?Search=xsdfadsf&amp;Order.Key=Id&amp;Order.Direction=Asc&amp;Limit=45&amp;LastId=10
+            
+            </remarks>
+            <param name="model">Cursor pagination request model</param>
+            <returns>HTTP 200 with users list in pagination or 40X, 500 with error message</returns>  
+        </member>
+        <member name="M:ApplicationAuth.Controllers.API.Admin.AdminUsersController.Delete(System.Int32)">
+            <summary>
+            Delete user
+            </summary>
+            <remarks>
+            Sample request:
+            
+                DELETE /api/v1/admin-users/2
+            
+            </remarks>
+            <param name="id">Id of user</param>
+            <returns>HTTP 200 with user profile or 40X, 500 with error message</returns>   
+        </member>
+        <member name="M:ApplicationAuth.Controllers.API.SessionsController.Login(ApplicationAuth.Models.RequestModels.LoginRequestModel)">
+             <summary>
+             Login User. 'accessTokenLifetime' - access token life time (sec)
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST api/v1/sessions
+                 {                
+                     "email" : "test@email.com",
+                     "password" : "1simplepassword",
+                     "accessTokenLifetime": "60" 
+                 }
+            
+             </remarks>
+             <returns>HTTP 201 with login response or HTTP 400, 500 with error message</returns>  
+        </member>
+        <member name="M:ApplicationAuth.Controllers.API.SessionsController.Logout">
+             <summary>
+             Clear user tokens
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 DELETE api/v1/sessions
+            
+             </remarks>
+             <returns>HTTP 200 with success message or HTTP 400, 500 with error message</returns>
+             <response code="200">Logout successful</response>
+             <response code="401">Unauthorized</response>   
+             <response code="404">If the user is not found</response>  
+             <response code="500">Internal server error</response>  
+        </member>
+        <member name="M:ApplicationAuth.Controllers.API.SessionsController.RefreshToken(ApplicationAuth.Models.RequestModels.RefreshTokenRequestModel)">
+             <summary>
+             Refresh user access token
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 PUT api/v1/sessions
+                 {                
+                     "refreshToken" : "some token"
+                 }
+            
+             </remarks>
+             <returns>HTTP 201 with new access-refresh token pair or HTTP 40X, 500 with error message</returns> 
+        </member>
+        <member name="M:ApplicationAuth.Controllers.API.TestController.AuthorizeWithoutCredentials(ApplicationAuth.Models.RequestModels.Test.ShortAuthorizationRequestModel)">
+            <summary>
+            For Swagger UI
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApplicationAuth.Controllers.API.TestController.DeleteAccount(System.Int32)">
+             <summary>
+             Hard delete user from db
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 DELETE api/v1/test/DeleteAccount?userid=1
+            
+             </remarks>
+             <returns>HTTP 200 with success message or HTTP 40X, 500 with message error</returns>
+        </member>
+        <member name="M:ApplicationAuth.Controllers.API.UsersController.Register(ApplicationAuth.Models.RequestModels.RegisterRequestModel)">
+             <summary>
+             Register new user
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST api/v1/users
+                 {                
+                     "email" : "test@example.com",
+                     "password" : "1simplepassword",
+                     "confirmPassword" : "1simplepassword"
+                 }
+            
+             </remarks>
+             <returns>HTTP 201 with user email and info about email status or HTTP 4XX, 500 with error message</returns>
+        </member>
+        <member name="T:ApplicationAuth.Helpers.AuthorizationHeaderOperationFilter">
+            <summary>
+            Add 'Authorization' parameter when request must be authorized'
+            </summary>
+        </member>
+        <member name="T:ApplicationAuth.Helpers.SwaggerFilters.DefaultValues">
+            <summary>
+            Represents the Swagger/Swashbuckle operation filter used to document the implicit API version parameter.
+            </summary>
+            <remarks>This <see cref="T:Swashbuckle.AspNetCore.SwaggerGen.IOperationFilter"/> is only required due to bugs in the <see cref="T:Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator"/>.
+            Once they are fixed and published, this class can be removed.</remarks>
+        </member>
+        <member name="M:ApplicationAuth.Helpers.SwaggerFilters.DefaultValues.Apply(Microsoft.OpenApi.Models.OpenApiOperation,Swashbuckle.AspNetCore.SwaggerGen.OperationFilterContext)">
+            <summary>
+            Applies the filter to the specified operation using the given context.
+            </summary>
+            <param name="operation">The operation to apply the filter to.</param>
+            <param name="context">The current operation filter context.</param>
+        </member>
+    </members>
+</doc>

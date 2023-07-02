@@ -1,0 +1,511 @@
+2022-08-12 13:31:27.8188|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 5.0.8 initialized 'DataContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None 
+2022-08-12 13:31:28.3598|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='500']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory'); 
+2022-08-12 13:31:28.3954|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='500']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory'); 
+2022-08-12 13:31:28.4067|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='500']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId"; 
+2022-08-12 13:31:28.4270|20405|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date. 
+2022-08-12 13:31:28.5818|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (6ms) [Parameters=[@__i_Name_0='?'], CommandType='Text', CommandTimeout='500']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AspNetRoles" AS a
+    WHERE a."Name" = @__i_Name_0) 
+2022-08-12 13:31:28.5889|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__i_Name_0='?'], CommandType='Text', CommandTimeout='500']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AspNetRoles" AS a
+    WHERE a."Name" = @__i_Name_0) 
+2022-08-12 13:31:28.5889|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__i_Name_0='?'], CommandType='Text', CommandTimeout='500']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AspNetRoles" AS a
+    WHERE a."Name" = @__i_Name_0) 
+2022-08-12 13:31:28.6068|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[@__user_UserName_0='?'], CommandType='Text', CommandTimeout='500']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AspNetUsers" AS a
+    WHERE a."UserName" = @__user_UserName_0) 
+2022-08-12 13:31:28.6068|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__user_UserName_0='?'], CommandType='Text', CommandTimeout='500']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AspNetUsers" AS a
+    WHERE a."UserName" = @__user_UserName_0) 
+2022-08-12 13:31:28.6068|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__user_UserName_0='?'], CommandType='Text', CommandTimeout='500']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AspNetUsers" AS a
+    WHERE a."UserName" = @__user_UserName_0) 
+2022-08-12 13:31:28.6068|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__user_UserName_0='?'], CommandType='Text', CommandTimeout='500']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AspNetUsers" AS a
+    WHERE a."UserName" = @__user_UserName_0) 
+2022-08-12 13:31:28.6068|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__user_UserName_0='?'], CommandType='Text', CommandTimeout='500']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AspNetUsers" AS a
+    WHERE a."UserName" = @__user_UserName_0) 
+2022-08-12 13:31:28.6186|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__user_UserName_0='?'], CommandType='Text', CommandTimeout='500']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AspNetUsers" AS a
+    WHERE a."UserName" = @__user_UserName_0) 
+2022-08-12 13:31:28.6186|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__user_UserName_0='?'], CommandType='Text', CommandTimeout='500']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AspNetUsers" AS a
+    WHERE a."UserName" = @__user_UserName_0) 
+2022-08-12 13:31:28.6186|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__user_UserName_0='?'], CommandType='Text', CommandTimeout='500']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AspNetUsers" AS a
+    WHERE a."UserName" = @__user_UserName_0) 
+2022-08-12 13:31:28.6186|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__user_UserName_0='?'], CommandType='Text', CommandTimeout='500']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AspNetUsers" AS a
+    WHERE a."UserName" = @__user_UserName_0) 
+2022-08-12 13:31:28.6186|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__user_UserName_0='?'], CommandType='Text', CommandTimeout='500']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AspNetUsers" AS a
+    WHERE a."UserName" = @__user_UserName_0) 
+2022-08-12 13:31:28.6657|63|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Anton_Hrinchenko\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2022-08-12 13:31:28.9791||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-08-12 13:31:28.9791||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-08-12 13:31:28.9791||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Anton_Hrinchenko\Desktop\ApplicationAuth\ApplicationAuth 
+2022-08-12 13:31:29.0060|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:49000/ - - 
+2022-08-12 13:31:29.1963|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ApplicationAuth.Controllers.HomeController.Index (ApplicationAuth)' 
+2022-08-12 13:31:29.2146|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ApplicationAuth.Controllers.HomeController (ApplicationAuth). 
+2022-08-12 13:31:29.2146|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 5.0.8 initialized 'DataContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None 
+2022-08-12 13:31:29.2505|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method ApplicationAuth.Controllers.HomeController.Index (ApplicationAuth) - Validation state: Valid 
+2022-08-12 13:31:29.2505|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method ApplicationAuth.Controllers.HomeController.Index (ApplicationAuth), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.2612ms. 
+2022-08-12 13:31:29.2505|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.RedirectResultExecutor|Executing RedirectResult, redirecting to swagger. 
+2022-08-12 13:31:29.2596|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ApplicationAuth.Controllers.HomeController.Index (ApplicationAuth) in 42.6749ms 
+2022-08-12 13:31:29.2596|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ApplicationAuth.Controllers.HomeController.Index (ApplicationAuth)' 
+2022-08-12 13:31:29.2904|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:49000/swagger - - 
+2022-08-12 13:31:29.2904|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:49000/ - - - 302 - - 291.4106ms 
+2022-08-12 13:31:29.2904|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:49000/swagger - - - 301 - - 4.6376ms 
+2022-08-12 13:31:29.2904|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:49000/swagger/index.html - - 
+2022-08-12 13:31:30.2146|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:49000/swagger/index.html - - - 200 - text/html;charset=utf-8 917.8459ms 
+2022-08-12 13:31:30.2146|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:49000/swagger/swagger-ui.css - - 
+2022-08-12 13:31:30.2146|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:49000/Swagger/swagger-ui.style.css - - 
+2022-08-12 13:31:30.2146|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:49000/swagger/swagger-ui-bundle.js - - 
+2022-08-12 13:31:30.2353|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Swagger/swagger-ui.style.css'. Physical path: 'C:\Users\Anton_Hrinchenko\Desktop\ApplicationAuth\ApplicationAuth\wwwroot\Swagger\swagger-ui.style.css' 
+2022-08-12 13:31:30.2353|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2022-08-12 13:31:30.2353|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2022-08-12 13:31:30.2353|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:49000/Swagger/swagger-ui.style.css - - - 200 59720 text/css 21.9596ms 
+2022-08-12 13:31:30.2353|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:49000/swagger/swagger-ui.css - - - 200 143410 text/css 23.3943ms 
+2022-08-12 13:31:30.2429|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:49000/swagger/swagger-ui-standalone-preset.js - - 
+2022-08-12 13:31:30.2429|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:49000/_framework/aspnetcore-browser-refresh.js - - 
+2022-08-12 13:31:30.2429|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2022-08-12 13:31:30.2429|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:49000/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 3.1604ms 
+2022-08-12 13:31:30.2429|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:49000/profiler/includes.min.js?v=4.0.138+gcc91adf599 - - 
+2022-08-12 13:31:30.2582|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:49000/swagger/swagger-ui-standalone-preset.js - - - 200 336841 application/javascript 15.4267ms 
+2022-08-12 13:31:30.2582|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:49000/profiler/includes.min.js?v=4.0.138+gcc91adf599 - - - 200 51685 application/javascript 6.5909ms 
+2022-08-12 13:31:30.2582|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:49000/swagger/swagger-ui-bundle.js - - - 200 1097461 application/javascript 53.8270ms 
+2022-08-12 13:31:30.4781|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:49000/swagger/v1/swagger.json - - 
+2022-08-12 13:31:30.5380|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:49000/swagger/favicon-32x32.png - - 
+2022-08-12 13:31:30.5440|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2022-08-12 13:31:30.5440|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:49000/swagger/favicon-32x32.png - - - 200 628 image/png 6.6804ms 
+2022-08-12 13:31:30.7015|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:49000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 223.4269ms 
+2022-08-12 13:31:30.7015|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:49000/profiler/results application/json 45 
+2022-08-12 13:31:30.7015|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:49000/profiler/results application/json 45 
+2022-08-12 13:31:30.7015|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:49000/profiler/results application/json 45 
+2022-08-12 13:31:30.7015|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:49000/profiler/results application/json 45 
+2022-08-12 13:31:30.7015|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:49000/profiler/results application/json 45 
+2022-08-12 13:31:30.7015|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:49000/profiler/results application/json 45 
+2022-08-12 13:31:30.7493|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:49000/profiler/results application/json 45 - 200 400 application/json 43.8270ms 
+2022-08-12 13:31:30.7493|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:49000/profiler/results application/json 45 - 200 2769 application/json 44.6705ms 
+2022-08-12 13:31:30.7493|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:49000/profiler/results application/json 45 - 200 417 application/json 42.9971ms 
+2022-08-12 13:31:30.7493|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:49000/profiler/results application/json 45 - 200 406 application/json 41.9642ms 
+2022-08-12 13:31:30.7493|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:49000/profiler/results application/json 45 - 200 417 application/json 42.2468ms 
+2022-08-12 13:31:30.7493|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:49000/profiler/results application/json 45 - 200 511 application/json 45.0507ms 
+2022-08-12 13:31:30.7493|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:49000/profiler/results application/json 45 
+2022-08-12 13:31:30.7493|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:49000/profiler/includes.min.css?v=4.0.138+gcc91adf599 - - 
+2022-08-12 13:31:30.7493|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:49000/profiler/results application/json 45 
+2022-08-12 13:31:30.7493|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:49000/profiler/results application/json 45 - 200 410 application/json 2.4522ms 
+2022-08-12 13:31:30.7493|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:49000/profiler/results application/json 45 - 200 426 application/json 2.4850ms 
+2022-08-12 13:31:30.7493|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:49000/profiler/includes.min.css?v=4.0.138+gcc91adf599 - - - 200 18009 text/css 3.0188ms 
+2022-08-12 13:32:43.9657|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:49000/api/v1/profiler - - 
+2022-08-12 13:32:43.9837|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ApplicationAuth.Controllers.API.ProfilerController.Get (ApplicationAuth)' 
+2022-08-12 13:32:44.0011|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Get", controller = "Profiler", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller ApplicationAuth.Controllers.API.ProfilerController (ApplicationAuth). 
+2022-08-12 13:32:44.0011|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method ApplicationAuth.Controllers.API.ProfilerController.Get (ApplicationAuth) - Validation state: Valid 
+2022-08-12 13:32:46.8537|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method ApplicationAuth.Controllers.API.ProfilerController.Get (ApplicationAuth), returned result Microsoft.AspNetCore.Mvc.OkResult in 2851.3434ms. 
+2022-08-12 13:32:46.8537|1|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200 
+2022-08-12 13:32:46.8537|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ApplicationAuth.Controllers.API.ProfilerController.Get (ApplicationAuth) in 2862.1037ms 
+2022-08-12 13:32:46.8537|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ApplicationAuth.Controllers.API.ProfilerController.Get (ApplicationAuth)' 
+2022-08-12 13:32:46.8537|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:49000/api/v1/profiler - - - 200 - - 2901.4278ms 
+2022-08-12 13:32:46.8707|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:49000/profiler/results application/json 45 
+2022-08-12 13:32:46.8707|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:49000/profiler/results application/json 45 
+2022-08-12 13:32:46.8707|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:49000/profiler/results application/json 45 - 200 410 application/json 2.0449ms 
+2022-08-12 13:32:46.8707|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:49000/profiler/results application/json 45 - 200 4332 application/json 7.6175ms 
+2022-08-12 13:33:11.1918|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:49000/api/v1/admin-users?Limit=10 - - 
+2022-08-12 13:33:11.2072|2|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|SuperAdmin) 
+2022-08-12 13:33:11.2168|12|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged. 
+2022-08-12 13:33:11.2275|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:49000/api/v1/admin-users?Limit=10 - - - 401 - application/json 35.7674ms 
+2022-08-12 13:33:11.2275|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:49000/profiler/results application/json 45 
+2022-08-12 13:33:11.2275|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:49000/profiler/results application/json 45 - 200 383 application/json 1.0780ms 
+2022-08-12 13:33:23.6397|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:49000/api/v1/test/authorize application/json 10 
+2022-08-12 13:33:23.6397|5|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution failed. 
+2022-08-12 13:33:23.6397|6|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Request origin http://localhost:49000 does not have permission to access the resource. 
+2022-08-12 13:33:23.6397|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ApplicationAuth.Controllers.API.TestController.AuthorizeWithoutCredentials (ApplicationAuth)' 
+2022-08-12 13:33:23.6585|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "AuthorizeWithoutCredentials", controller = "Test", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AuthorizeWithoutCredentials(ApplicationAuth.Models.RequestModels.Test.ShortAuthorizationRequestModel) on controller ApplicationAuth.Controllers.API.TestController (ApplicationAuth). 
+2022-08-12 13:33:23.6863|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 5.0.8 initialized 'DataContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None 
+2022-08-12 13:33:23.9247|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method ApplicationAuth.Controllers.API.TestController.AuthorizeWithoutCredentials (ApplicationAuth) - Validation state: Valid 
+2022-08-12 13:33:24.0347|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (19ms) [Parameters=[@__model_Id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='500']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."DeletedAt", a."Email", a."EmailConfirmed", a."IsActive", a."IsDeleted", a."LastVisitAt", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RegistratedAt", a."SecurityStamp", a."TimeZoneOffset", a."TwoFactorEnabled", a."UserName", p."Id", p."AvatarId", p."BraintreeCustomerId", p."FirstName", p."LastName", p."StripeCustomerId"
+FROM "AspNetUsers" AS a
+LEFT JOIN "Profile" AS p ON a."Id" = p."Id"
+WHERE a."Id" = @__model_Id_0
+LIMIT 1 
+2022-08-12 13:33:24.2190|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (7ms) [Parameters=[@p20='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?', @p21='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTime), @p8='?' (DbType = Boolean), @p9='?' (DbType = DateTimeOffset), @p10='?', @p11='?', @p12='?', @p13='?', @p14='?' (DbType = Boolean), @p15='?' (DbType = DateTime), @p16='?', @p17='?' (DbType = Double), @p18='?' (DbType = Boolean), @p19='?'], CommandType='Text', CommandTimeout='500']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "DeletedAt" = @p2, "Email" = @p3, "EmailConfirmed" = @p4, "IsActive" = @p5, "IsDeleted" = @p6, "LastVisitAt" = @p7, "LockoutEnabled" = @p8, "LockoutEnd" = @p9, "NormalizedEmail" = @p10, "NormalizedUserName" = @p11, "PasswordHash" = @p12, "PhoneNumber" = @p13, "PhoneNumberConfirmed" = @p14, "RegistratedAt" = @p15, "SecurityStamp" = @p16, "TimeZoneOffset" = @p17, "TwoFactorEnabled" = @p18, "UserName" = @p19
+WHERE "Id" = @p20 AND "ConcurrencyStamp" = @p21; 
+2022-08-12 13:33:24.2461|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[@__user_Id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='500']
+-- CreateUserTokenAsync_GetUsersTokens
+
+SELECT u."Id", u."AccessExpiresDate", u."AccessTokenHash", u."CreatedAt", u."IsActive", u."RefreshExpiresDate", u."RefreshTokenHash", u."UserId"
+FROM "UserTokens" AS u
+WHERE u."UserId" = @__user_Id_0 
+2022-08-12 13:33:24.3249|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (7ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='500']
+SELECT a0."Name"
+FROM "AspNetUserRoles" AS a
+INNER JOIN "AspNetRoles" AS a0 ON a."RoleId" = a0."Id"
+WHERE a."UserId" = @__userId_0 
+2022-08-12 13:33:24.3376|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='500']
+SELECT a0."Name"
+FROM "AspNetUserRoles" AS a
+INNER JOIN "AspNetRoles" AS a0 ON a."RoleId" = a0."Id"
+WHERE a."UserId" = @__userId_0 
+2022-08-12 13:33:24.4850|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (8ms) [Parameters=[@p20='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?', @p21='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTime), @p8='?' (DbType = Boolean), @p9='?' (DbType = DateTimeOffset), @p10='?', @p11='?', @p12='?', @p13='?', @p14='?' (DbType = Boolean), @p15='?' (DbType = DateTime), @p16='?', @p17='?' (DbType = Double), @p18='?' (DbType = Boolean), @p19='?', @p22='?' (DbType = Int32), @p23='?' (DbType = DateTime), @p24='?', @p25='?' (DbType = DateTime), @p26='?' (DbType = Boolean), @p27='?' (DbType = DateTime), @p28='?', @p29='?' (DbType = Int32)], CommandType='Text', CommandTimeout='500']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "DeletedAt" = @p2, "Email" = @p3, "EmailConfirmed" = @p4, "IsActive" = @p5, "IsDeleted" = @p6, "LastVisitAt" = @p7, "LockoutEnabled" = @p8, "LockoutEnd" = @p9, "NormalizedEmail" = @p10, "NormalizedUserName" = @p11, "PasswordHash" = @p12, "PhoneNumber" = @p13, "PhoneNumberConfirmed" = @p14, "RegistratedAt" = @p15, "SecurityStamp" = @p16, "TimeZoneOffset" = @p17, "TwoFactorEnabled" = @p18, "UserName" = @p19
+WHERE "Id" = @p20 AND "ConcurrencyStamp" = @p21;
+DELETE FROM "UserTokens"
+WHERE "Id" = @p22;
+INSERT INTO "UserTokens" ("AccessExpiresDate", "AccessTokenHash", "CreatedAt", "IsActive", "RefreshExpiresDate", "RefreshTokenHash", "UserId")
+VALUES (@p23, @p24, @p25, @p26, @p27, @p28, @p29)
+RETURNING "Id"; 
+2022-08-12 13:33:24.5136|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='500']
+SELECT a0."Name"
+FROM "AspNetUserRoles" AS a
+INNER JOIN "AspNetRoles" AS a0 ON a."RoleId" = a0."Id"
+WHERE a."UserId" = @__userId_0 
+2022-08-12 13:33:24.5279|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method ApplicationAuth.Controllers.API.TestController.AuthorizeWithoutCredentials (ApplicationAuth), returned result Microsoft.AspNetCore.Mvc.JsonResult in 602.8523ms. 
+2022-08-12 13:33:24.5279|1|INFO|Microsoft.AspNetCore.Mvc.NewtonsoftJson.NewtonsoftJsonResultExecutor|Executing JsonResult, writing value of type 'ApplicationAuth.Models.ResponseModels.JsonResponse`1[[ApplicationAuth.Models.ResponseModels.Session.LoginResponseModel, ApplicationAuth.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2022-08-12 13:33:24.5279|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ApplicationAuth.Controllers.API.TestController.AuthorizeWithoutCredentials (ApplicationAuth) in 878.5778ms 
+2022-08-12 13:33:24.5279|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ApplicationAuth.Controllers.API.TestController.AuthorizeWithoutCredentials (ApplicationAuth)' 
+2022-08-12 13:33:24.5279|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:49000/api/v1/test/authorize application/json 10 - 200 - application/json;+charset=utf-8 899.5104ms 
+2022-08-12 13:33:43.6735|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:49000/api/v1/admin-users?Limit=10 - - 
+2022-08-12 13:33:43.7940|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2022-08-12 13:33:43.7940|1|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful. 
+2022-08-12 13:33:43.7940|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ApplicationAuth.Controllers.API.Admin.AdminUsersController.GetAll (ApplicationAuth)' 
+2022-08-12 13:33:43.8123|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "AdminUsers", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll(ApplicationAuth.Models.RequestModels.PaginationRequestModel`1[ApplicationAuth.Models.Enums.UserTableColumn]) on controller ApplicationAuth.Controllers.API.Admin.AdminUsersController (ApplicationAuth). 
+2022-08-12 13:33:43.8123|1|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful. 
+2022-08-12 13:33:43.8123|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 5.0.8 initialized 'DataContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None 
+2022-08-12 13:33:43.8280|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method ApplicationAuth.Controllers.API.Admin.AdminUsersController.GetAll (ApplicationAuth) - Validation state: Valid 
+2022-08-12 13:33:43.8592|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='500']
+-- GetAll_GetUsers
+
+SELECT COUNT(*)::INT
+FROM "AspNetUsers" AS a
+WHERE (NOT (a."IsDeleted") AND NOT (EXISTS (
+    SELECT 1
+    FROM "AspNetUserRoles" AS a0
+    INNER JOIN "AspNetRoles" AS a1 ON a0."RoleId" = a1."Id"
+    WHERE (a."Id" = a0."UserId") AND (a1."Name" = 'SuperAdmin')))) AND EXISTS (
+    SELECT 1
+    FROM "AspNetUserRoles" AS a2
+    INNER JOIN "AspNetRoles" AS a3 ON a2."RoleId" = a3."Id"
+    WHERE (a."Id" = a2."UserId") AND (a3."Name" = 'User')) 
+2022-08-12 13:33:43.9080|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='500']
+-- GetAll_GetUsers
+
+SELECT t."Email", p."FirstName", p."LastName", NOT (t."IsActive"), t."RegistratedAt", t."Id"
+FROM (
+    SELECT a."Id", a."Email", a."IsActive", a."RegistratedAt"
+    FROM "AspNetUsers" AS a
+    WHERE (NOT (a."IsDeleted") AND NOT (EXISTS (
+        SELECT 1
+        FROM "AspNetUserRoles" AS a0
+        INNER JOIN "AspNetRoles" AS a1 ON a0."RoleId" = a1."Id"
+        WHERE (a."Id" = a0."UserId") AND (a1."Name" = 'SuperAdmin')))) AND EXISTS (
+        SELECT 1
+        FROM "AspNetUserRoles" AS a2
+        INNER JOIN "AspNetRoles" AS a3 ON a2."RoleId" = a3."Id"
+        WHERE (a."Id" = a2."UserId") AND (a3."Name" = 'User'))
+    LIMIT @__p_1 OFFSET @__p_0
+) AS t
+LEFT JOIN "Profile" AS p ON t."Id" = p."Id" 
+2022-08-12 13:33:43.9080|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method ApplicationAuth.Controllers.API.Admin.AdminUsersController.GetAll (ApplicationAuth), returned result Microsoft.AspNetCore.Mvc.JsonResult in 82.4661ms. 
+2022-08-12 13:33:43.9080|1|INFO|Microsoft.AspNetCore.Mvc.NewtonsoftJson.NewtonsoftJsonResultExecutor|Executing JsonResult, writing value of type 'ApplicationAuth.Models.ResponseModels.JsonPaginationResponse`1[[System.Collections.Generic.List`1[[ApplicationAuth.Models.ResponseModels.UserTableRowResponseModel, ApplicationAuth.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2022-08-12 13:33:43.9080|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ApplicationAuth.Controllers.API.Admin.AdminUsersController.GetAll (ApplicationAuth) in 100.8206ms 
+2022-08-12 13:33:43.9143|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ApplicationAuth.Controllers.API.Admin.AdminUsersController.GetAll (ApplicationAuth)' 
+2022-08-12 13:33:43.9143|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:49000/api/v1/admin-users?Limit=10 - - - 200 - application/json;+charset=utf-8 241.6207ms 
+2022-08-12 13:33:43.9143|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:49000/profiler/results application/json 45 
+2022-08-12 13:33:43.9143|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:49000/profiler/results application/json 45 
+2022-08-12 13:33:43.9143|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:49000/profiler/results application/json 45 - 200 13782 application/json 2.5510ms 
+2022-08-12 13:33:43.9143|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:49000/profiler/results application/json 45 - 200 7973 application/json 2.4920ms 
+2022-08-12 13:44:45.5820|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 5.0.8 initialized 'DataContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None 
+2022-08-12 13:44:46.6445|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (18ms) [Parameters=[], CommandType='Text', CommandTimeout='500']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory'); 
+2022-08-12 13:44:46.6954|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='500']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory'); 
+2022-08-12 13:44:46.7140|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='500']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId"; 
+2022-08-12 13:44:46.7443|20405|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date. 
+2022-08-12 13:44:47.0639|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (6ms) [Parameters=[@__i_Name_0='?'], CommandType='Text', CommandTimeout='500']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AspNetRoles" AS a
+    WHERE a."Name" = @__i_Name_0) 
+2022-08-12 13:44:47.0786|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__i_Name_0='?'], CommandType='Text', CommandTimeout='500']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AspNetRoles" AS a
+    WHERE a."Name" = @__i_Name_0) 
+2022-08-12 13:44:47.0786|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__i_Name_0='?'], CommandType='Text', CommandTimeout='500']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AspNetRoles" AS a
+    WHERE a."Name" = @__i_Name_0) 
+2022-08-12 13:44:47.1065|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__user_UserName_0='?'], CommandType='Text', CommandTimeout='500']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AspNetUsers" AS a
+    WHERE a."UserName" = @__user_UserName_0) 
+2022-08-12 13:44:47.1065|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__user_UserName_0='?'], CommandType='Text', CommandTimeout='500']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AspNetUsers" AS a
+    WHERE a."UserName" = @__user_UserName_0) 
+2022-08-12 13:44:47.1065|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__user_UserName_0='?'], CommandType='Text', CommandTimeout='500']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AspNetUsers" AS a
+    WHERE a."UserName" = @__user_UserName_0) 
+2022-08-12 13:44:47.1187|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__user_UserName_0='?'], CommandType='Text', CommandTimeout='500']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AspNetUsers" AS a
+    WHERE a."UserName" = @__user_UserName_0) 
+2022-08-12 13:44:47.1187|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__user_UserName_0='?'], CommandType='Text', CommandTimeout='500']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AspNetUsers" AS a
+    WHERE a."UserName" = @__user_UserName_0) 
+2022-08-12 13:44:47.1187|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__user_UserName_0='?'], CommandType='Text', CommandTimeout='500']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AspNetUsers" AS a
+    WHERE a."UserName" = @__user_UserName_0) 
+2022-08-12 13:44:47.1187|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__user_UserName_0='?'], CommandType='Text', CommandTimeout='500']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AspNetUsers" AS a
+    WHERE a."UserName" = @__user_UserName_0) 
+2022-08-12 13:44:47.1359|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__user_UserName_0='?'], CommandType='Text', CommandTimeout='500']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AspNetUsers" AS a
+    WHERE a."UserName" = @__user_UserName_0) 
+2022-08-12 13:44:47.1359|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__user_UserName_0='?'], CommandType='Text', CommandTimeout='500']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AspNetUsers" AS a
+    WHERE a."UserName" = @__user_UserName_0) 
+2022-08-12 13:44:47.1359|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__user_UserName_0='?'], CommandType='Text', CommandTimeout='500']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AspNetUsers" AS a
+    WHERE a."UserName" = @__user_UserName_0) 
+2022-08-12 13:44:47.2241|63|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Anton_Hrinchenko\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2022-08-12 13:44:47.7717||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-08-12 13:44:47.7834||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-08-12 13:44:47.7834||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Anton_Hrinchenko\Desktop\ApplicationAuth\ApplicationAuth 
+2022-08-12 13:44:47.8329|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:49000/swagger/index.html - - 
+2022-08-12 13:44:48.3349|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:49000/_framework/aspnetcore-browser-refresh.js - - 
+2022-08-12 13:44:48.3510|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:49000/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 14.6601ms 
+2022-08-12 13:44:48.3524|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:49000/swagger/index.html - - - 200 - text/html;charset=utf-8 533.4789ms 
+2022-08-12 13:44:48.5510|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:49000/swagger/v1/swagger.json - - 
+2022-08-12 13:44:49.0782|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:49000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 542.1009ms 
+2022-08-12 13:44:49.0782|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:49000/profiler/results application/json 45 
+2022-08-12 13:44:49.0782|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:49000/profiler/results application/json 45 
+2022-08-12 13:44:49.1424|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:49000/profiler/results application/json 45 - 200 897 application/json 63.9161ms 
+2022-08-12 13:44:49.1424|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:49000/profiler/results application/json 45 - 200 668 application/json 66.0175ms 
+2022-08-12 13:44:59.1060|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:49000/api/v1/test/authorize application/json 11 
+2022-08-12 13:44:59.1060|5|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution failed. 
+2022-08-12 13:44:59.1060|6|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Request origin http://localhost:49000 does not have permission to access the resource. 
+2022-08-12 13:44:59.6417|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2022-08-12 13:44:59.6417|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ApplicationAuth.Controllers.API.TestController.AuthorizeWithoutCredentials (ApplicationAuth)' 
+2022-08-12 13:44:59.6966|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "AuthorizeWithoutCredentials", controller = "Test", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AuthorizeWithoutCredentials(ApplicationAuth.Models.RequestModels.Test.ShortAuthorizationRequestModel) on controller ApplicationAuth.Controllers.API.TestController (ApplicationAuth). 
+2022-08-12 13:44:59.7563|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 5.0.8 initialized 'DataContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None 
+2022-08-12 13:44:59.8767|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method ApplicationAuth.Controllers.API.TestController.AuthorizeWithoutCredentials (ApplicationAuth) - Validation state: Valid 
+2022-08-12 13:45:00.0421|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (21ms) [Parameters=[@__model_Id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='500']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."DeletedAt", a."Email", a."EmailConfirmed", a."IsActive", a."IsDeleted", a."LastVisitAt", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RegistratedAt", a."SecurityStamp", a."TimeZoneOffset", a."TwoFactorEnabled", a."UserName", p."Id", p."AvatarId", p."BraintreeCustomerId", p."FirstName", p."LastName", p."StripeCustomerId"
+FROM "AspNetUsers" AS a
+LEFT JOIN "Profile" AS p ON a."Id" = p."Id"
+WHERE a."Id" = @__model_Id_0
+LIMIT 1 
+2022-08-12 13:45:00.3252|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (10ms) [Parameters=[@p20='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?', @p21='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTime), @p8='?' (DbType = Boolean), @p9='?' (DbType = DateTimeOffset), @p10='?', @p11='?', @p12='?', @p13='?', @p14='?' (DbType = Boolean), @p15='?' (DbType = DateTime), @p16='?', @p17='?' (DbType = Double), @p18='?' (DbType = Boolean), @p19='?'], CommandType='Text', CommandTimeout='500']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "DeletedAt" = @p2, "Email" = @p3, "EmailConfirmed" = @p4, "IsActive" = @p5, "IsDeleted" = @p6, "LastVisitAt" = @p7, "LockoutEnabled" = @p8, "LockoutEnd" = @p9, "NormalizedEmail" = @p10, "NormalizedUserName" = @p11, "PasswordHash" = @p12, "PhoneNumber" = @p13, "PhoneNumberConfirmed" = @p14, "RegistratedAt" = @p15, "SecurityStamp" = @p16, "TimeZoneOffset" = @p17, "TwoFactorEnabled" = @p18, "UserName" = @p19
+WHERE "Id" = @p20 AND "ConcurrencyStamp" = @p21; 
+2022-08-12 13:45:00.3671|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__user_Id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='500']
+-- CreateUserTokenAsync_GetUsersTokens
+
+SELECT u."Id", u."AccessExpiresDate", u."AccessTokenHash", u."CreatedAt", u."IsActive", u."RefreshExpiresDate", u."RefreshTokenHash", u."UserId"
+FROM "UserTokens" AS u
+WHERE u."UserId" = @__user_Id_0 
+2022-08-12 13:45:00.4397|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (8ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='500']
+SELECT a0."Name"
+FROM "AspNetUserRoles" AS a
+INNER JOIN "AspNetRoles" AS a0 ON a."RoleId" = a0."Id"
+WHERE a."UserId" = @__userId_0 
+2022-08-12 13:45:00.4670|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (10ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='500']
+SELECT a0."Name"
+FROM "AspNetUserRoles" AS a
+INNER JOIN "AspNetRoles" AS a0 ON a."RoleId" = a0."Id"
+WHERE a."UserId" = @__userId_0 
+2022-08-12 13:45:00.5828|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[@p20='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?', @p21='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTime), @p8='?' (DbType = Boolean), @p9='?' (DbType = DateTimeOffset), @p10='?', @p11='?', @p12='?', @p13='?', @p14='?' (DbType = Boolean), @p15='?' (DbType = DateTime), @p16='?', @p17='?' (DbType = Double), @p18='?' (DbType = Boolean), @p19='?', @p22='?' (DbType = DateTime), @p23='?', @p24='?' (DbType = DateTime), @p25='?' (DbType = Boolean), @p26='?' (DbType = DateTime), @p27='?', @p28='?' (DbType = Int32)], CommandType='Text', CommandTimeout='500']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "DeletedAt" = @p2, "Email" = @p3, "EmailConfirmed" = @p4, "IsActive" = @p5, "IsDeleted" = @p6, "LastVisitAt" = @p7, "LockoutEnabled" = @p8, "LockoutEnd" = @p9, "NormalizedEmail" = @p10, "NormalizedUserName" = @p11, "PasswordHash" = @p12, "PhoneNumber" = @p13, "PhoneNumberConfirmed" = @p14, "RegistratedAt" = @p15, "SecurityStamp" = @p16, "TimeZoneOffset" = @p17, "TwoFactorEnabled" = @p18, "UserName" = @p19
+WHERE "Id" = @p20 AND "ConcurrencyStamp" = @p21;
+INSERT INTO "UserTokens" ("AccessExpiresDate", "AccessTokenHash", "CreatedAt", "IsActive", "RefreshExpiresDate", "RefreshTokenHash", "UserId")
+VALUES (@p22, @p23, @p24, @p25, @p26, @p27, @p28)
+RETURNING "Id"; 
+2022-08-12 13:45:00.6178|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='500']
+SELECT a0."Name"
+FROM "AspNetUserRoles" AS a
+INNER JOIN "AspNetRoles" AS a0 ON a."RoleId" = a0."Id"
+WHERE a."UserId" = @__userId_0 
+2022-08-12 13:45:00.6575|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method ApplicationAuth.Controllers.API.TestController.AuthorizeWithoutCredentials (ApplicationAuth), returned result Microsoft.AspNetCore.Mvc.JsonResult in 773.2776ms. 
+2022-08-12 13:45:00.6738|1|INFO|Microsoft.AspNetCore.Mvc.NewtonsoftJson.NewtonsoftJsonResultExecutor|Executing JsonResult, writing value of type 'ApplicationAuth.Models.ResponseModels.JsonResponse`1[[ApplicationAuth.Models.ResponseModels.Session.LoginResponseModel, ApplicationAuth.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2022-08-12 13:45:00.6978|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ApplicationAuth.Controllers.API.TestController.AuthorizeWithoutCredentials (ApplicationAuth) in 995.7325ms 
+2022-08-12 13:45:00.6978|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ApplicationAuth.Controllers.API.TestController.AuthorizeWithoutCredentials (ApplicationAuth)' 
+2022-08-12 13:45:00.6978|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:49000/api/v1/test/authorize application/json 11 - 200 - application/json;+charset=utf-8 1598.7962ms 
+2022-08-12 13:45:25.5432|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:49000/api/v1/test/authorize application/json 11 
+2022-08-12 13:45:25.5432|5|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution failed. 
+2022-08-12 13:45:25.5432|6|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Request origin http://localhost:49000 does not have permission to access the resource. 
+2022-08-12 13:45:25.5715|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2022-08-12 13:45:25.5715|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ApplicationAuth.Controllers.API.TestController.AuthorizeWithoutCredentials (ApplicationAuth)' 
+2022-08-12 13:45:25.5715|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "AuthorizeWithoutCredentials", controller = "Test", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AuthorizeWithoutCredentials(ApplicationAuth.Models.RequestModels.Test.ShortAuthorizationRequestModel) on controller ApplicationAuth.Controllers.API.TestController (ApplicationAuth). 
+2022-08-12 13:45:25.5715|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 5.0.8 initialized 'DataContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None 
+2022-08-12 13:45:25.5715|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method ApplicationAuth.Controllers.API.TestController.AuthorizeWithoutCredentials (ApplicationAuth) - Validation state: Valid 
+2022-08-12 13:45:25.5949|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[@__model_Id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='500']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."DeletedAt", a."Email", a."EmailConfirmed", a."IsActive", a."IsDeleted", a."LastVisitAt", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RegistratedAt", a."SecurityStamp", a."TimeZoneOffset", a."TwoFactorEnabled", a."UserName", p."Id", p."AvatarId", p."BraintreeCustomerId", p."FirstName", p."LastName", p."StripeCustomerId"
+FROM "AspNetUsers" AS a
+LEFT JOIN "Profile" AS p ON a."Id" = p."Id"
+WHERE a."Id" = @__model_Id_0
+LIMIT 1 
+2022-08-12 13:45:25.6069|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method ApplicationAuth.Controllers.API.TestController.AuthorizeWithoutCredentials (ApplicationAuth), returned result Microsoft.AspNetCore.Mvc.ContentResult in 21.2826ms. 
+2022-08-12 13:45:25.6069|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor|Executing ContentResult with HTTP Response ContentType of application/json 
+2022-08-12 13:45:25.6069|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ApplicationAuth.Controllers.API.TestController.AuthorizeWithoutCredentials (ApplicationAuth) in 37.0832ms 
+2022-08-12 13:45:25.6069|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ApplicationAuth.Controllers.API.TestController.AuthorizeWithoutCredentials (ApplicationAuth)' 
+2022-08-12 13:45:25.6069|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:49000/api/v1/test/authorize application/json 11 - 404 163 application/json 68.5138ms 
+2022-08-12 13:45:47.3953|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:49000/api/v1/test/authorize application/json 11 
+2022-08-12 13:45:47.3953|5|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution failed. 
+2022-08-12 13:45:47.3953|6|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Request origin http://localhost:49000 does not have permission to access the resource. 
+2022-08-12 13:45:47.4313|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2022-08-12 13:45:47.4313|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ApplicationAuth.Controllers.API.TestController.AuthorizeWithoutCredentials (ApplicationAuth)' 
+2022-08-12 13:45:47.4313|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "AuthorizeWithoutCredentials", controller = "Test", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AuthorizeWithoutCredentials(ApplicationAuth.Models.RequestModels.Test.ShortAuthorizationRequestModel) on controller ApplicationAuth.Controllers.API.TestController (ApplicationAuth). 
+2022-08-12 13:45:47.4313|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 5.0.8 initialized 'DataContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None 
+2022-08-12 13:45:47.4631|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method ApplicationAuth.Controllers.API.TestController.AuthorizeWithoutCredentials (ApplicationAuth) - Validation state: Valid 
+2022-08-12 13:45:47.4788|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (9ms) [Parameters=[@__model_Id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='500']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."DeletedAt", a."Email", a."EmailConfirmed", a."IsActive", a."IsDeleted", a."LastVisitAt", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RegistratedAt", a."SecurityStamp", a."TimeZoneOffset", a."TwoFactorEnabled", a."UserName", p."Id", p."AvatarId", p."BraintreeCustomerId", p."FirstName", p."LastName", p."StripeCustomerId"
+FROM "AspNetUsers" AS a
+LEFT JOIN "Profile" AS p ON a."Id" = p."Id"
+WHERE a."Id" = @__model_Id_0
+LIMIT 1 
+2022-08-12 13:45:47.4788|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@p20='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?', @p21='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTime), @p8='?' (DbType = Boolean), @p9='?' (DbType = DateTimeOffset), @p10='?', @p11='?', @p12='?', @p13='?', @p14='?' (DbType = Boolean), @p15='?' (DbType = DateTime), @p16='?', @p17='?' (DbType = Double), @p18='?' (DbType = Boolean), @p19='?'], CommandType='Text', CommandTimeout='500']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "DeletedAt" = @p2, "Email" = @p3, "EmailConfirmed" = @p4, "IsActive" = @p5, "IsDeleted" = @p6, "LastVisitAt" = @p7, "LockoutEnabled" = @p8, "LockoutEnd" = @p9, "NormalizedEmail" = @p10, "NormalizedUserName" = @p11, "PasswordHash" = @p12, "PhoneNumber" = @p13, "PhoneNumberConfirmed" = @p14, "RegistratedAt" = @p15, "SecurityStamp" = @p16, "TimeZoneOffset" = @p17, "TwoFactorEnabled" = @p18, "UserName" = @p19
+WHERE "Id" = @p20 AND "ConcurrencyStamp" = @p21; 
+2022-08-12 13:45:47.5007|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__user_Id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='500']
+-- CreateUserTokenAsync_GetUsersTokens
+
+SELECT u."Id", u."AccessExpiresDate", u."AccessTokenHash", u."CreatedAt", u."IsActive", u."RefreshExpiresDate", u."RefreshTokenHash", u."UserId"
+FROM "UserTokens" AS u
+WHERE u."UserId" = @__user_Id_0 
+2022-08-12 13:45:47.5282|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (5ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='500']
+SELECT a0."Name"
+FROM "AspNetUserRoles" AS a
+INNER JOIN "AspNetRoles" AS a0 ON a."RoleId" = a0."Id"
+WHERE a."UserId" = @__userId_0 
+2022-08-12 13:45:47.5282|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='500']
+SELECT a0."Name"
+FROM "AspNetUserRoles" AS a
+INNER JOIN "AspNetRoles" AS a0 ON a."RoleId" = a0."Id"
+WHERE a."UserId" = @__userId_0 
+2022-08-12 13:45:47.5539|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[@p20='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?', @p21='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTime), @p8='?' (DbType = Boolean), @p9='?' (DbType = DateTimeOffset), @p10='?', @p11='?', @p12='?', @p13='?', @p14='?' (DbType = Boolean), @p15='?' (DbType = DateTime), @p16='?', @p17='?' (DbType = Double), @p18='?' (DbType = Boolean), @p19='?', @p22='?' (DbType = Int32), @p23='?' (DbType = DateTime), @p24='?', @p25='?' (DbType = DateTime), @p26='?' (DbType = Boolean), @p27='?' (DbType = DateTime), @p28='?', @p29='?' (DbType = Int32)], CommandType='Text', CommandTimeout='500']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "DeletedAt" = @p2, "Email" = @p3, "EmailConfirmed" = @p4, "IsActive" = @p5, "IsDeleted" = @p6, "LastVisitAt" = @p7, "LockoutEnabled" = @p8, "LockoutEnd" = @p9, "NormalizedEmail" = @p10, "NormalizedUserName" = @p11, "PasswordHash" = @p12, "PhoneNumber" = @p13, "PhoneNumberConfirmed" = @p14, "RegistratedAt" = @p15, "SecurityStamp" = @p16, "TimeZoneOffset" = @p17, "TwoFactorEnabled" = @p18, "UserName" = @p19
+WHERE "Id" = @p20 AND "ConcurrencyStamp" = @p21;
+DELETE FROM "UserTokens"
+WHERE "Id" = @p22;
+INSERT INTO "UserTokens" ("AccessExpiresDate", "AccessTokenHash", "CreatedAt", "IsActive", "RefreshExpiresDate", "RefreshTokenHash", "UserId")
+VALUES (@p23, @p24, @p25, @p26, @p27, @p28, @p29)
+RETURNING "Id"; 
+2022-08-12 13:45:47.5829|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (11ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='500']
+SELECT a0."Name"
+FROM "AspNetUserRoles" AS a
+INNER JOIN "AspNetRoles" AS a0 ON a."RoleId" = a0."Id"
+WHERE a."UserId" = @__userId_0 
+2022-08-12 13:45:47.5932|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method ApplicationAuth.Controllers.API.TestController.AuthorizeWithoutCredentials (ApplicationAuth), returned result Microsoft.AspNetCore.Mvc.JsonResult in 129.3725ms. 
+2022-08-12 13:45:47.5932|1|INFO|Microsoft.AspNetCore.Mvc.NewtonsoftJson.NewtonsoftJsonResultExecutor|Executing JsonResult, writing value of type 'ApplicationAuth.Models.ResponseModels.JsonResponse`1[[ApplicationAuth.Models.ResponseModels.Session.LoginResponseModel, ApplicationAuth.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2022-08-12 13:45:47.5932|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ApplicationAuth.Controllers.API.TestController.AuthorizeWithoutCredentials (ApplicationAuth) in 162.3395ms 
+2022-08-12 13:45:47.5932|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ApplicationAuth.Controllers.API.TestController.AuthorizeWithoutCredentials (ApplicationAuth)' 
+2022-08-12 13:45:47.5932|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:49000/api/v1/test/authorize application/json 11 - 200 - application/json;+charset=utf-8 201.2583ms 
+2022-08-12 13:48:03.7474|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:49000/api/v1/test/authorize application/json 11 
+2022-08-12 13:48:03.7474|5|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution failed. 
+2022-08-12 13:48:03.7587|6|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Request origin http://localhost:49000 does not have permission to access the resource. 
+2022-08-12 13:48:03.7861|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2022-08-12 13:48:03.7861|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ApplicationAuth.Controllers.API.TestController.AuthorizeWithoutCredentials (ApplicationAuth)' 
+2022-08-12 13:48:03.7861|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "AuthorizeWithoutCredentials", controller = "Test", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AuthorizeWithoutCredentials(ApplicationAuth.Models.RequestModels.Test.ShortAuthorizationRequestModel) on controller ApplicationAuth.Controllers.API.TestController (ApplicationAuth). 
+2022-08-12 13:48:03.7936|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 5.0.8 initialized 'DataContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None 
+2022-08-12 13:48:03.7936|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method ApplicationAuth.Controllers.API.TestController.AuthorizeWithoutCredentials (ApplicationAuth) - Validation state: Valid 
+2022-08-12 13:48:03.8058|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__model_Id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='500']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."DeletedAt", a."Email", a."EmailConfirmed", a."IsActive", a."IsDeleted", a."LastVisitAt", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RegistratedAt", a."SecurityStamp", a."TimeZoneOffset", a."TwoFactorEnabled", a."UserName", p."Id", p."AvatarId", p."BraintreeCustomerId", p."FirstName", p."LastName", p."StripeCustomerId"
+FROM "AspNetUsers" AS a
+LEFT JOIN "Profile" AS p ON a."Id" = p."Id"
+WHERE a."Id" = @__model_Id_0
+LIMIT 1 
+2022-08-12 13:48:03.8058|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@p20='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?', @p21='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTime), @p8='?' (DbType = Boolean), @p9='?' (DbType = DateTimeOffset), @p10='?', @p11='?', @p12='?', @p13='?', @p14='?' (DbType = Boolean), @p15='?' (DbType = DateTime), @p16='?', @p17='?' (DbType = Double), @p18='?' (DbType = Boolean), @p19='?'], CommandType='Text', CommandTimeout='500']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "DeletedAt" = @p2, "Email" = @p3, "EmailConfirmed" = @p4, "IsActive" = @p5, "IsDeleted" = @p6, "LastVisitAt" = @p7, "LockoutEnabled" = @p8, "LockoutEnd" = @p9, "NormalizedEmail" = @p10, "NormalizedUserName" = @p11, "PasswordHash" = @p12, "PhoneNumber" = @p13, "PhoneNumberConfirmed" = @p14, "RegistratedAt" = @p15, "SecurityStamp" = @p16, "TimeZoneOffset" = @p17, "TwoFactorEnabled" = @p18, "UserName" = @p19
+WHERE "Id" = @p20 AND "ConcurrencyStamp" = @p21; 
+2022-08-12 13:48:03.8280|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__user_Id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='500']
+-- CreateUserTokenAsync_GetUsersTokens
+
+SELECT u."Id", u."AccessExpiresDate", u."AccessTokenHash", u."CreatedAt", u."IsActive", u."RefreshExpiresDate", u."RefreshTokenHash", u."UserId"
+FROM "UserTokens" AS u
+WHERE u."UserId" = @__user_Id_0 
+2022-08-12 13:48:03.8380|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='500']
+SELECT a0."Name"
+FROM "AspNetUserRoles" AS a
+INNER JOIN "AspNetRoles" AS a0 ON a."RoleId" = a0."Id"
+WHERE a."UserId" = @__userId_0 
+2022-08-12 13:48:03.9375|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (53ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='500']
+SELECT a0."Name"
+FROM "AspNetUserRoles" AS a
+INNER JOIN "AspNetRoles" AS a0 ON a."RoleId" = a0."Id"
+WHERE a."UserId" = @__userId_0 
+2022-08-12 13:48:03.9505|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[@p20='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?', @p21='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTime), @p8='?' (DbType = Boolean), @p9='?' (DbType = DateTimeOffset), @p10='?', @p11='?', @p12='?', @p13='?', @p14='?' (DbType = Boolean), @p15='?' (DbType = DateTime), @p16='?', @p17='?' (DbType = Double), @p18='?' (DbType = Boolean), @p19='?', @p22='?' (DbType = Int32), @p23='?' (DbType = DateTime), @p24='?', @p25='?' (DbType = DateTime), @p26='?' (DbType = Boolean), @p27='?' (DbType = DateTime), @p28='?', @p29='?' (DbType = Int32)], CommandType='Text', CommandTimeout='500']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "DeletedAt" = @p2, "Email" = @p3, "EmailConfirmed" = @p4, "IsActive" = @p5, "IsDeleted" = @p6, "LastVisitAt" = @p7, "LockoutEnabled" = @p8, "LockoutEnd" = @p9, "NormalizedEmail" = @p10, "NormalizedUserName" = @p11, "PasswordHash" = @p12, "PhoneNumber" = @p13, "PhoneNumberConfirmed" = @p14, "RegistratedAt" = @p15, "SecurityStamp" = @p16, "TimeZoneOffset" = @p17, "TwoFactorEnabled" = @p18, "UserName" = @p19
+WHERE "Id" = @p20 AND "ConcurrencyStamp" = @p21;
+DELETE FROM "UserTokens"
+WHERE "Id" = @p22;
+INSERT INTO "UserTokens" ("AccessExpiresDate", "AccessTokenHash", "CreatedAt", "IsActive", "RefreshExpiresDate", "RefreshTokenHash", "UserId")
+VALUES (@p23, @p24, @p25, @p26, @p27, @p28, @p29)
+RETURNING "Id"; 
+2022-08-12 13:48:03.9641|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='500']
+SELECT a0."Name"
+FROM "AspNetUserRoles" AS a
+INNER JOIN "AspNetRoles" AS a0 ON a."RoleId" = a0."Id"
+WHERE a."UserId" = @__userId_0 
+2022-08-12 13:48:03.9641|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method ApplicationAuth.Controllers.API.TestController.AuthorizeWithoutCredentials (ApplicationAuth), returned result Microsoft.AspNetCore.Mvc.JsonResult in 171.2367ms. 
+2022-08-12 13:48:03.9641|1|INFO|Microsoft.AspNetCore.Mvc.NewtonsoftJson.NewtonsoftJsonResultExecutor|Executing JsonResult, writing value of type 'ApplicationAuth.Models.ResponseModels.JsonResponse`1[[ApplicationAuth.Models.ResponseModels.Session.LoginResponseModel, ApplicationAuth.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2022-08-12 13:48:03.9771|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ApplicationAuth.Controllers.API.TestController.AuthorizeWithoutCredentials (ApplicationAuth) in 188.1421ms 
+2022-08-12 13:48:03.9771|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ApplicationAuth.Controllers.API.TestController.AuthorizeWithoutCredentials (ApplicationAuth)' 
+2022-08-12 13:48:03.9771|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:49000/api/v1/test/authorize application/json 11 - 200 - application/json;+charset=utf-8 233.1660ms 

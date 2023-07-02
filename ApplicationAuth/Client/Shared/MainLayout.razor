@@ -1,0 +1,57 @@
+﻿@inherits LayoutComponentBase
+
+<CascadingValue Value="this">
+    <div class="page">
+         <Toasts class="p-3" Delay="6000" Placement="ToastsPlacement.TopRight" />
+        <div class="sidebar">
+            <NavMenu />
+        </div>
+
+        <main>
+            <div class="top-row px-4">
+                <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
+                <Button Color="ButtonColor.Primary" @onclick='() => ShowMessage(ToastType.Primary, "test", "test")'>Primary Toast</Button>
+            </div>
+
+            <article class="content px-4">
+                <ErrorBoundary @ref="ErrorBoundary">
+                    <ChildContent>
+                        @Body
+                    </ChildContent>
+                    <ErrorContent>
+                        @(() => ShowMessage(ToastType.Danger, "Unknown Error", "Oops, something went wrong"))
+                    </ErrorContent>
+                </ErrorBoundary>
+            </article>
+        </main>
+    </div>
+</CascadingValue>
+
+
+@code
+{
+    ErrorBoundary? ErrorBoundary;
+    [Inject] 
+    private ToastService _toastService { get; set; }
+
+    protected override void OnParametersSet()
+    {
+        ErrorBoundary?.Recover();
+    }
+
+    public void ShowMessage(ToastType toastType, string title, string message, bool autoHide = false)
+    {
+        var toastMessage = new ToastMessage();
+
+        toastMessage.Type = toastType;
+        toastMessage.Title = title;
+        toastMessage.HelpText = $"{DateTime.Now}";
+        toastMessage.Message = $"{message}";
+        toastMessage.AutoHide = !(toastType == ToastType.Danger || toastType == ToastType.Warning) || autoHide == true;
+
+        _toastService.Notify(toastMessage);
+
+        Console.WriteLine("work");
+    }
+    
+}

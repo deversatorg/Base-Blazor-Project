@@ -1,0 +1,12 @@
+C:\projects\Shop\ApplicationAuth\Shared\bin\Debug\net6.0\ApplicationAuth.Shared.deps.json
+C:\projects\Shop\ApplicationAuth\Shared\bin\Debug\net6.0\ApplicationAuth.Shared.dll
+C:\projects\Shop\ApplicationAuth\Shared\bin\Debug\net6.0\ApplicationAuth.Shared.pdb
+C:\projects\Shop\ApplicationAuth\Shared\obj\Debug\net6.0\ApplicationAuth.Shared.csproj.AssemblyReference.cache
+C:\projects\Shop\ApplicationAuth\Shared\obj\Debug\net6.0\ApplicationAuth.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\Shop\ApplicationAuth\Shared\obj\Debug\net6.0\ApplicationAuth.Shared.AssemblyInfoInputs.cache
+C:\projects\Shop\ApplicationAuth\Shared\obj\Debug\net6.0\ApplicationAuth.Shared.AssemblyInfo.cs
+C:\projects\Shop\ApplicationAuth\Shared\obj\Debug\net6.0\ApplicationAuth.Shared.csproj.CoreCompileInputs.cache
+C:\projects\Shop\ApplicationAuth\Shared\obj\Debug\net6.0\ApplicationAuth.Shared.dll
+C:\projects\Shop\ApplicationAuth\Shared\obj\Debug\net6.0\refint\ApplicationAuth.Shared.dll
+C:\projects\Shop\ApplicationAuth\Shared\obj\Debug\net6.0\ApplicationAuth.Shared.pdb
+C:\projects\Shop\ApplicationAuth\Shared\obj\Debug\net6.0\ref\ApplicationAuth.Shared.dll

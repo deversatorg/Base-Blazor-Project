@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\projects\\Shop\\ApplicationAuth\\Server\\wwwroot\\HtmlContentTemplates\\HtmlLayout.html",
+      "PackagePath": "staticwebassets\\HtmlContentTemplates\\HtmlLayout.html"
+    },
+    {
+      "Id": "C:\\projects\\Shop\\ApplicationAuth\\Server\\wwwroot\\Swagger\\swagger-ui.style.css",
+      "PackagePath": "staticwebassets\\Swagger\\swagger-ui.style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ApplicationAuth.Server.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ApplicationAuth.Server.props",
+      "PackagePath": "build\\ApplicationAuth.Server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ApplicationAuth.Server.props",
+      "PackagePath": "buildMultiTargeting\\ApplicationAuth.Server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ApplicationAuth.Server.props",
+      "PackagePath": "buildTransitive\\ApplicationAuth.Server.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
